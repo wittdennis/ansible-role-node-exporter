@@ -1,2 +1,18 @@
 ---
-# defaults file for role_remplate
+# See available releases: https://github.com/prometheus/node_exporter/releases/
+node_exporter_version: v1.10.2 # renovate: datasource=github-tags depName=prometheus/node_exporter versioning=semver
+node_exporter_download_url: https://github.com/prometheus/node_exporter/releases/download/{{ node_exporter_version }}/node_exporter-{{ node_exporter_version[1:] }}.linux-{{ node_exporter_arch }}.tar.gz # noqa: yaml[line-length]
+
+node_exporter_bin_path: /usr/local/bin/node_exporter
+
+# Set node_exporter_host to localhost if you wish to expose node_exporter on localhost only.
+node_exporter_host: ""
+node_exporter_port: 9100
+node_exporter_options: ""
+
+node_exporter_state: started
+node_exporter_enabled: true
+node_exporter_restart: on-failure
+# Optionally set the uid/gid for the node_exporter user
+# node_exporter_uid: 1001
+# node_exporter_gid: 1001
