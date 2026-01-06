@@ -1,38 +1,56 @@
-Role Name
-=========
+# node_exporter
 
-A brief description of the role goes here.
+This role installs Prometheus' [Node exporter](https://github.com/prometheus/node_exporter) on Linux hosts, and configures a systemd unit file so the service can run and be controlled by systemd.
 
-Requirements
-------------
+## Requirements
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+Systemd or openrc init system.
 
-Role Variables
---------------
+## Role Variables
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-Dependencies
-------------
+    node_exporter_version: 'v1.10.2'
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+The version of Node exporter to install. Available releases can be found on the [tags](https://github.com/prometheus/node_exporter/tags) listing in the Node exporter repository.
 
-Example Playbook
-----------------
+If you change the version, the `node_exporter` binary will be replaced with the updated version, and the service will be restarted.
+
+    node_exporter_arch: 'amd64'
+    node_exporter_download_url: https://github.com/prometheus/node_exporter/releases/download/v{{ node_exporter_version }}/node_exporter-{{ node_exporter_version }}.linux-{{ node_exporter_arch }}.tar.gz
+
+The architecture and download URL for Node exporter.
+
+    node_exporter_bin_path: /usr/local/bin/node_exporter
+
+The path where the `node_exporter` binary will be installed.
+
+    node_exporter_host: 'localhost'
+    node_exporter_port: 9100
+
+Host and port on which node exporter will listen.
+
+    node_exporter_options: ''
+
+Any additional options to pass to `node_exporter` when it starts, e.g. `--no-collector.wifi` if you want to ignore any WiFi data.
+
+    node_exporter_state: started
+    node_exporter_enabled: true
+
+Controls for the `node_exporter` service.
+
+## Dependencies
+
+None.
+
+## Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-    - hosts: servers
+    - hosts: all
       roles:
-         - { role: username.rolename, x: 42 }
+        - role: wittdennis.node_exporter
 
-License
--------
+## License
 
-BSD
-
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+MIT
