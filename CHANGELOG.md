@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.0.1](https://github.com/wittdennis/ansible-role-node-exporter/compare/4cbc4c95c358a7e6c279722a6499468036645e1d..1.0.1) - 2026-01-16
+#### Bug Fixes
+- node_exporter download on every run - ([37764db](https://github.com/wittdennis/ansible-role-node-exporter/commit/37764db7d78ccf9dcd167cc4905a3052ecc4bfb6)) - Dennis Witt
+#### Miscellaneous Chores
+- (**deps**) update wittdennis/pipelines action to v1.13.4 - ([c70cbf7](https://github.com/wittdennis/ansible-role-node-exporter/commit/c70cbf726323e5cd91b162ae351a15d3454434c2)) - wittdennis-renovate[bot]
+- (**deps**) update pre-commit hook ansible-community/ansible-lint to v26 - ([4cbc4c9](https://github.com/wittdennis/ansible-role-node-exporter/commit/4cbc4c95c358a7e6c279722a6499468036645e1d)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.0.0](https://github.com/wittdennis/ansible-role-node-exporter/compare/c4b1ab8ebad0617a0ec48b908099d3e8f328e073..1.0.0) - 2026-01-06
 #### Features
 - initial implementation - ([6ff1ea9](https://github.com/wittdennis/ansible-role-node-exporter/commit/6ff1ea96546944829ed6dd5e12a6ce713552a483)) - Dennis Witt
