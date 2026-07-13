@@ -2,6 +2,44 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.0.4](https://github.com/wittdennis/ansible-role-node-exporter/compare/84d0a1e6359f4b6c2e57e34c173bb02b7cb1d2bc..1.0.4) - 2026-07-13
+#### Bug Fixes
+- (**deps**) update dependency prometheus/node_exporter to v1.12.0 - ([e5eccff](https://github.com/wittdennis/ansible-role-node-exporter/commit/e5eccff2b9f44b284e4edd2233b68c7feef1afaf)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.9 - ([f8d51cb](https://github.com/wittdennis/ansible-role-node-exporter/commit/f8d51cb831ecd1561f377b44bdae4e1386ddb1fb)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update wittdennis/pipelines action to v2.0.35 - ([8c07c59](https://github.com/wittdennis/ansible-role-node-exporter/commit/8c07c5982e7c88b0b7e84fd9aa984f2a5c54a9ec)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.34 - ([8f42470](https://github.com/wittdennis/ansible-role-node-exporter/commit/8f42470ebcc09e68a5ee5dde583ace62fe3c1eb6)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.33 - ([6a5e4e6](https://github.com/wittdennis/ansible-role-node-exporter/commit/6a5e4e64572bad3f4a9fc550d5a175083a491572)) - wittdennis-renovate[bot]
+- (**deps**) update pre-commit hook ansible-community/ansible-lint to v26.6.0 - ([6fbf43a](https://github.com/wittdennis/ansible-role-node-exporter/commit/6fbf43af1683b0a48088e3ebcfbd0ab69796b6b0)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.32 - ([7c9f528](https://github.com/wittdennis/ansible-role-node-exporter/commit/7c9f528737daff894884c121453ceda0e1b147cf)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.31 - ([bc83072](https://github.com/wittdennis/ansible-role-node-exporter/commit/bc830725390ea3c7f17cb56539e0863d725ab55e)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.29 - ([3e573fc](https://github.com/wittdennis/ansible-role-node-exporter/commit/3e573fc70f9ba1f2df634c8ed0a2751d41e847be)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.28 - ([510cc0e](https://github.com/wittdennis/ansible-role-node-exporter/commit/510cc0e5b94311a1c9dd32202602e1f1ff1cb530)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.26 - ([a0e34be](https://github.com/wittdennis/ansible-role-node-exporter/commit/a0e34bee5132b454d8d1feac316b40f4295d39dc)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.25 - ([1598f7a](https://github.com/wittdennis/ansible-role-node-exporter/commit/1598f7a882f2ee99e94492767be75be56f21c792)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.24 - ([227c7d4](https://github.com/wittdennis/ansible-role-node-exporter/commit/227c7d431eb3d9bce67babd9763f49e01ab1c2f9)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.23 - ([8ad0a11](https://github.com/wittdennis/ansible-role-node-exporter/commit/8ad0a11c105244bb170908499d6056881627c489)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.22 - ([3df49b7](https://github.com/wittdennis/ansible-role-node-exporter/commit/3df49b7349c09bf5531cc25aeea0109bdc4c8f50)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.21 - ([e0db15c](https://github.com/wittdennis/ansible-role-node-exporter/commit/e0db15c58f9ddfce42e612da477e8fb64c2fe553)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.20 - ([057d8de](https://github.com/wittdennis/ansible-role-node-exporter/commit/057d8de28738004742ce7e3cb2b7322786eaf392)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.19 - ([4756bc5](https://github.com/wittdennis/ansible-role-node-exporter/commit/4756bc51ebd4a6552bc33b24b9816a1af47669a5)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.18 - ([2911a83](https://github.com/wittdennis/ansible-role-node-exporter/commit/2911a837680c3f061812cbbe52fff503df762fc7)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.17 - ([8232271](https://github.com/wittdennis/ansible-role-node-exporter/commit/8232271393617b2a8e01a224486de9ac369a5624)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.16 - ([a4a4eeb](https://github.com/wittdennis/ansible-role-node-exporter/commit/a4a4eeb08615ef7f7c7165ce2adc27a9a58165f1)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.15 - ([0d08852](https://github.com/wittdennis/ansible-role-node-exporter/commit/0d08852c0d742839df42c70da0fdd65f3a8f12e2)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.14 - ([2bbf19e](https://github.com/wittdennis/ansible-role-node-exporter/commit/2bbf19e00ee2c3d96dbc488e1ab2b6717a78a4bb)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.13 - ([8b1769f](https://github.com/wittdennis/ansible-role-node-exporter/commit/8b1769fa74e903b2e82269f15bcd7611e3d24fab)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.12 - ([ab168a8](https://github.com/wittdennis/ansible-role-node-exporter/commit/ab168a884a40fb11eb3f87bc1699ace5f1ce8441)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.11 - ([1d0a0c3](https://github.com/wittdennis/ansible-role-node-exporter/commit/1d0a0c3d30f16dc91046614f23aa2ec1b46ffb54)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.10 - ([48bb13c](https://github.com/wittdennis/ansible-role-node-exporter/commit/48bb13c0e7000e922a5273ffaddd05763f730dd9)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.8 - ([6dd5898](https://github.com/wittdennis/ansible-role-node-exporter/commit/6dd5898dd7761814a060337c105e98449ea1a7e5)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.7 - ([348ac2a](https://github.com/wittdennis/ansible-role-node-exporter/commit/348ac2afc68268ae7aaa0c6a8aa4eb2a3e077cdc)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.6 - ([6748d7b](https://github.com/wittdennis/ansible-role-node-exporter/commit/6748d7b7b7738eb57709696977197545bf728405)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.5 - ([84d0a1e](https://github.com/wittdennis/ansible-role-node-exporter/commit/84d0a1e6359f4b6c2e57e34c173bb02b7cb1d2bc)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.0.3](https://github.com/wittdennis/ansible-role-node-exporter/compare/41a30a27df93e46d4a16a6ec33064cf029f56bb1..1.0.3) - 2026-04-07
 #### Bug Fixes
 - (**deps**) update dependency prometheus/node_exporter to v1.11.1 - ([41a30a2](https://github.com/wittdennis/ansible-role-node-exporter/commit/41a30a27df93e46d4a16a6ec33064cf029f56bb1)) - wittdennis-renovate[bot]
