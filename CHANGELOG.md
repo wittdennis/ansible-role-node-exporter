@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [1.0.6](https://github.com/wittdennis/ansible-role-node-exporter/compare/ca0128035766453e6d1091ddffaf0ce08bf670ff..1.0.6) - 2026-11-20
+#### Bug Fixes
+- (**deps**) update dependency prometheus/node_exporter to v1.13.1 - ([ca01280](https://github.com/wittdennis/ansible-role-node-exporter/commit/ca0128035766453e6d1091ddffaf0ce08bf670ff)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [1.0.5](https://github.com/wittdennis/ansible-role-node-exporter/compare/28fbda7c3f21e0b9a4f9d590df98cabe1fad4c75..1.0.5) - 2026-11-19
 #### Bug Fixes
 - (**deps**) update dependency prometheus/node_exporter to v1.13.0 - ([c6a54f5](https://github.com/wittdennis/ansible-role-node-exporter/commit/c6a54f51d64f3c1d390e6dc05242c79f8dc43c6e)) - wittdennis-renovate[bot]
